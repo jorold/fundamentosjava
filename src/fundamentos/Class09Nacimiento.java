@@ -20,11 +20,13 @@ public class Class09Nacimiento {
         if (mes == 1) {
             mes = 13;
             //anyo = anyo - 1;
-            anyo--;
+            //anyo--;
+            anyo -= 1;
         } else if (mes == 2) {
             mes = 14;
             //anyo = anyo - 1;
-            anyo -= 1;
+            anyo--;
+            //anyo -= 1;
         }
         op1 = ((mes + 1) * 3) / 5;
         op2 = anyo / 4;
