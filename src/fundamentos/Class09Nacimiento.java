@@ -20,8 +20,8 @@ public class Class09Nacimiento {
         if (mes == 1) {
             mes = 13;
             //anyo = anyo - 1;
-            anyo--;
-            //anyo -= 1;
+            //anyo--;
+            anyo -= 1;
         } else if (mes == 2) {
             mes = 14;
             //anyo = anyo - 1;
@@ -50,6 +50,5 @@ public class Class09Nacimiento {
         } else if (resultado == 6) {
             System.out.println("Su día de nacimiento fue Viernes");
         }
-
     }
 }
